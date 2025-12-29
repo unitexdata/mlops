@@ -1,0 +1,5 @@
+outs:
+- md5: 755efff8c9c0f624a0e8134bd3125775
+  size: 106603543
+  hash: md5
+  path: phishing_email.csv
