@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Env
+.env
+
+# ML artifacts
+mlflow.db
+mlruns/
+models/
+data/processed/
+
+# OS
+.DS_Store
