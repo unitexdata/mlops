@@ -92,13 +92,13 @@ stages:
       size: 184017
     - path: src/model_trainer.py
       hash: md5
-      md5: 81186d480c24e669c578c7ddba9ee13e
-      size: 1120
+      md5: 6fed0dc1d7f6573568f235e21b29ef6e
+      size: 1303
     outs:
     - path: models/phishing_model.pkl
       hash: md5
-      md5: ea35a0048ee81b7e3282f31d4e1ec43a
-      size: 40863
+      md5: 799fdc4e67ba7583e4f26b1743fa0f31
+      size: 3913929
   evaluate:
     cmd: python src/model_evaluation.py
     deps:
@@ -108,9 +108,9 @@ stages:
       size: 38534301
     - path: models/phishing_model.pkl
       hash: md5
-      md5: ea35a0048ee81b7e3282f31d4e1ec43a
-      size: 40863
+      md5: 799fdc4e67ba7583e4f26b1743fa0f31
+      size: 3913929
     - path: src/model_evaluation.py
       hash: md5
-      md5: 28820f96fefc621d5a8c0cf3681d3218
-      size: 774
+      md5: 1eaf68f0a30b8a39a1adc5b6815b59b6
+      size: 1496
